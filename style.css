@@ -1,0 +1,105 @@
+/*** Header Section ***/
+.header{
+    background: #3498db;
+}
+.header img {
+    width: 175px;
+    display: inline-block;
+    padding: 10px 0;
+}
+.header ul{
+    margin-bottom: 0;
+}
+.header ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: -4px;
+}
+.header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    border-right: 1px solid #fff;
+    line-height: 78px;
+    transition: 0.5s;
+}
+.header ul li:first-child a{
+    border-left: 1px solid #fff;
+}
+.header ul li a:hover{
+    background: #2980b9;
+}
+/*** Banner Section ***/
+.banner{
+    background: url(./Image/bannar.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+.banner h2 {
+    font-size: 34px;
+    background: #4d4b4b7d;
+    width: 430px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.banner h1 {
+    font-size: 34px;
+    background: #3498db96;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+/*** About Section ***/
+.about h1{
+    text-decoration: underline;
+}
+/*** Service Section ***/
+.box {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px #0000002e;
+}
+.box span {
+    font-size: 30px;
+    background: #3498db;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 20px 20px 20px 0;
+    color: #fff;
+    margin-bottom: 15px;
+}
+/*** Content Section ***/
+.content .c-box img {
+    width: 160px;
+    float: left;
+    margin-right: 25px;
+}
+.notice h2{
+    border-bottom: 1px solid #ddd;
+}
+.notice ul li {
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+/*** Footer Section ***/
+.footer p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.social a {
+    font-size: 19px;
+    margin-right: 12px;
+    color: #fff;
+}
